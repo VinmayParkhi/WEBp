@@ -8,7 +8,7 @@ npm-debug.log*
 
 # Build generated files
 dist
-lib
+#lib
 release
 solution
 temp
