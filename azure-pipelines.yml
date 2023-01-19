@@ -29,7 +29,7 @@ steps:
 
 - task: CopyFiles@2
   inputs:
-    SourceFolder: '$(Build.SourcesDirectory)/sharepoint/solution'
+    SourceFolder: '$(Build.SourcesDirectory)/solution'
     Contents: 'my-first-web-part.sppkg"'
     TargetFolder: '$(Build.ArtifactStagingDirectory)/drop'
 
