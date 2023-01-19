@@ -24,8 +24,8 @@ coverage
 # Visual Studio files
 .ntvs_analysis.dat
 .vs
-bin
-obj
+#bin
+#obj
 
 # Resx Generated Code
 *.resx.ts
