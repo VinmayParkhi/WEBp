@@ -10,7 +10,7 @@ npm-debug.log*
 #dist
 #lib
 #release
-solution
+#solution
 #temp
 #*.sppkg
 .heft
