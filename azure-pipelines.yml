@@ -20,6 +20,7 @@ steps:
     command: 'install'
 
 - script: |
+    cd WebPart
     gulp build --ship
     gulp bundle --ship
     gulp package-solution --ship
