@@ -29,8 +29,8 @@ steps:
 
 - task: CopyFiles@2
   inputs:
-    SourceFolder: '$(Build.SourcesDirectory)'
-    Contents: 'my-first-web-part.sppkg"'
+    SourceFolder: '$(Build.SourcesDirectory)/sharepoint/solution'
+    Contents: '**/*.sppkg"'
     TargetFolder: '$(Build.ArtifactStagingDirectory)/drop'
 
 - task: PublishBuildArtifacts@1
